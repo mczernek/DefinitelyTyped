@@ -207,6 +207,8 @@ export interface AuthorizeParams {
 
 export interface AuthorizeOptions {
     ephemeralSession?: boolean;
+    customScheme?: string;
+    leeway?: number;
 }
 
 export interface ClearSessionParams {
